@@ -1,0 +1,16 @@
+import turtle
+s=turtle.getscreen()
+turtle.hideturtle()
+#s.title("My Turtle Program")
+#t1=turtle.Turtle()
+#t1.pencolor("Yellow")
+#t1.shape("turtle")
+#t1.shapesize(stretch length,stretch width,outline width or border width)
+#t1.shapesize(5,10,5)
+s.title("#TurtleAsFan")
+t1=turtle.Turtle()
+t1.pencolor("Yellow")
+t1.shape("turtle")
+t1.shapesize(10,10,10)
+while(1):
+    t1.left(90)
